@@ -1,6 +1,5 @@
 {
   "name": "josla-tech",
-  "homepage": "https://mathachew7.github.io/josla-tech",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,12 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^12.18.1",
-    "gh-pages": "^6.3.0",
     "lucide-react": "^0.525.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
